@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Servis əlavə edin </title>
+
+    <!-- Bootstrap -->
+    <link href="assets/plugins/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="assets/plugins/nprogress/nprogress.css" rel="stylesheet">
+    <!-- iCheck -->
+    <link href="assets/plugins/iCheck/skins/flat/green.css" rel="stylesheet">
+    <!-- Custom Theme Style -->
+    <link href="assets/css/style.css" rel="stylesheet">
+  </head>
+
+  <body class="nav-md">
+    <div class="container body">
+      <div class="main_container">
+        <div class="col-md-3 left_col">
+          <div class="left_col scroll-view">
+
+            <div class="clearfix"></div>
+
+            <!-- menu profile quick info -->
+            <div class="profile clearfix">
+              <div class="profile_pic">
+                <a href="index.html">
+                  <img src="assets/images/splab-2.png" alt="..." class="img-circle profile_img">
+                </a>
+                
+              </div>
+              <div class="profile_info">
+                <span>Xoş gəlmisiniz,</span>
+                <h2>Admin</h2>
+              </div>
+            </div>
+            <!-- /menu profile quick info -->
+
+            <br />
+
+            <!-- sidebar menu -->
+            <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+              <div class="menu_section">
+                <h3>Əsas</h3>
+                <ul class="nav side-menu">
+                  <li><a href="index.html"><i class="fa fa-home"></i>Əsas sehifə</a></li>
+                  <li><a href="settings.html"><i class="fa fa-wrench"></i> Tənzimləmələr</a></li>
+                  <li><a href="useful-links.html"><i class="fa fa-external-link"></i>Faydalı Linklər</a></li>
+                  <li><a href="our-team.html"><i class="fa fa-users"></i>Komandamız</a></li>
+                  <li><a href="about-statistics.html"><i class="fa fa-bar-chart"></i>Statiskalar</a></li>
+                  <li><a href="slader.html"><i class="fa fa-video-camera"></i>Slayder</a></li>
+                  <li><a href="package-services.html"><i class="fa fa-cog"></i>Paket xidmətləri</a></li>
+                  <li><a href="customers-says.html"><i class="fa fa-user"></i>Müştərilərin deyimi</a></li>
+                  <li><a href="coorperation-with-us.html"><i class="fa fa-balance-scale"></i>Bizimlə əməkdaşlıq</a></li>
+
+                  <li><a><i class="fa fa-folder-o"></i> Səhifələr <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="about.html">Haqqımızda</a></li>
+                      <li><a href="services.html">Xidmətlər</a></li>
+                      <li><a href="gallery.html">Qalereya</a></li>
+                      <li><a href="news.html">Xəbərlər</a></li>
+                      <li><a href="settings.html#elaqe">Əlaqə</a></li>
+                    </ul>
+                  </li>
+
+                </ul>
+              </div>
+            
+
+            </div>
+            <!-- /sidebar menu -->
+
+          </div>
+        </div>
+
+        <!-- top navigation -->
+        <div class="top_nav">
+          <div class="nav_menu">
+            <nav>
+              <div class="nav toggle">
+                <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+              </div>
+
+              <ul class="nav navbar-nav navbar-right">
+                <li class="">
+                  <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                    <img src="assets/images/splab-2.png" alt="">Super Admin
+                    <span class=" fa fa-angle-down"></span>
+                  </a>
+                  <ul class="dropdown-menu dropdown-usermenu pull-right">
+                    <li><a href="login.html"><i class="fa fa-sign-out pull-right"></i> Çıxış</a></li>
+                  </ul>
+                </li>
+
+                
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <!-- /top navigation -->
+
+        <!-- page content -->
+        <div class="right_col" role="main">
+            <div class="">
+              <div class="clearfix"></div>
+              <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                  <div class="x_panel">
+                    <div class="x_title">
+                      <h2>SERVİS ƏLAVƏ EDİN</h2>
+                      <div class="clearfix"></div>
+                    </div>
+                    <div class="x_content">
+                      <br />
+                      <form id="demo-form2" data-parsley-validate class="form-horizontal form-label-left">
+  
+                        <div class="card-body">
+                            <div class="e-table">
+                                <div class="table-lg mt-3">
+                                    <form id="equip" method="post">
+                                        <table class="table table-bordered border-top text-nowrap">
+                                            <thead>
+                                                <tr>
+                                                    <th class="align-top border-bottom-0 w-5">№</th>
+                                                    <th colspan="3" class="border-bottom-0 w-95 ">Kategoriya</th>
+                                                </tr>
+
+                                            </thead>
+                                            <tbody class="sumo-select-quarantine">
+
+
+                                                <tr>
+                                                    <td class="align-middle text-center">
+                                                        1
+                                                    </td>
+                                                    <td class="align-middle " colspan="3">
+                                                        <div class="col-lg-12 d-flex justify-content-center">
+                                                            <div class="form-group w-30">
+                                                                <label class=" form-label fs-15 text-center">Kategoriyanı seçin</label>
+                                                                <div class="d-flex">
+                                                                    <select name="name"
+                                                                        class="form-select fs-15 border"
+                                                                        placeholder="Seçiminizi edin...">
+                                                                        <option disabled selected>
+                                                                            Seçiminizi edin...
+                                                                        </option>
+                                                                        <option selected>Torpaq analizi</option>
+                                                                    </select>
+                                                                    <!-- Small modal -->
+                                                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm" title="Digər kategoriya əlavə edin">+</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th class="align-top border-bottom-0 w-5">№</th>
+                                                    <th class="border-bottom-0 w-80">
+                                                        Kategoriyaya Görə Məhsulun Adı
+                                                    </th>
+                                                    <th class="border-bottom-0 w-15">Kategoriyaya Görə Məhsulun Günü
+                                                    </th>
+                                                </tr>
+                                                <tr>
+                                                    <td class="align-top border-bottom-0 w-5">1</td>
+                                                    <td class="border-bottom-0 w-80">
+                                                        <div class="form-group">
+                                                            <div class="col-md-12">
+                                                                <input type="text" class="form-control col-md-7 col-xs-12" value="torpaq analizi">
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="border-bottom-0 w-15">
+                                                        <div class="form-group">
+                                                            <div class="col-md-12">
+                                                                <input type="text" class="form-control col-md-7 col-xs-12" value="5 gün">
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="add-row mb-2">
+                                                <button type="button" class="btn click_btnn"><i
+                                                        class="fa fa-plus-circle text-primary"
+                                                        data-bs-toggle="tooltip"
+                                                        title="Əlavə edin"></i></button>
+                                            </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ln_solid"></div>
+                        <div class="form-group">
+                          <div class="col-md-2 col-sm-6 col-xs-12">
+                            <a href="services.html" class="btn btn-primary">Ləğv et</a>
+                            <button type="submit" class="btn btn-success">Tamamla</button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <!-- /page content -->
+
+        <!-- footer content -->
+        <footer>
+            <div class="pull-right">
+              Bütün hüquqlar <a href="#">Amondesoft</a> tərəfindən qorunur.
+            </div>
+            <div class="clearfix"></div>
+        </footer>
+        <!-- /footer content -->
+        <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-large modal-dialog-centered">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel2">Modal title</h4>
+                </div>
+                <div class="modal-body">
+                    <form id="equip" method="post">
+                        <div class="form-group">
+                            <label class="control-label col-md-2 col-sm-3 col-xs-12" for="last-name">Kategoriya<span class="required">*</span>
+                            </label>
+                            <div class="col-md-9 col-sm-6 col-xs-12">
+                              <input type="text" required="required" class="form-control col-md-7 col-xs-12" placeholder="Məs(Torpaq analizi)" value="">
+                            </div>
+                          </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Bağla</button>
+                <button type="button" class="btn btn-success">Tamamla</button>
+                </div>
+
+            </div>
+            </div>
+        </div>
+        <!-- /modals -->
+      </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="assets/plugins/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="assets/plugins/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- FastClick -->
+    <script src="assets/plugins/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="assets/plugins/nprogress/nprogress.js"></script>
+    <!-- bootstrap-progressbar -->
+    <script src="assets/plugins/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+    <!-- iCheck -->
+    <script src="assets/plugins/iCheck/icheck.min.js"></script>
+    <!-- Custom Theme Scripts -->
+    <script src="assets/js/custom.js"></script>
+    <script>
+        
+    var tableRowNumber = 0
+
+    $(document).ready(function () {
+        
+        $(document).on("click", ".click_btnn", function () {
+
+            tableRowNumber = $(this).parent().parent().parent().parent().parent().find("tr").length -3;
+            tableRowNumber += 1;
+
+            $('tbody').append(`<tr class="append">
+                <td class="align-middle border-bottom-0 w-5 text-center">${tableRowNumber}</td>
+                <td class="align-middle">
+                    <div class="col-lg-12">                                                                       
+                            <div class="form-group m-0">
+                                <div>
+                                    <input type="text"
+                                        class="form-control"
+                                        name="name1[]"
+                                        value="">
+                                </div>
+                            </div>
+                    
+                    </div>
+                </td>
+                <td class="align-middle">
+                    <div class="col-lg-12">
+                        
+                            <div class="form-group m-0">
+                                <div>
+                                    <input type="text"
+                                        class="form-control"
+                                        name="name2[]"
+                                        value="">
+                                </div>
+                            </div>
+                        
+                    </div>
+                </td>
+
+                
+            </tr>`);
+
+            
+        });
+
+    });
+    </script>
+
+  </body>
+</html>
